@@ -7,18 +7,13 @@ display: flex;
 flex-direction: column;
 }
 
-.header {
-    font-size: 24px;
-    justify-content: center;
-    
-}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-flex;
-    align-items: end;
+    display: flex;
+    justify-self: end;
   }
   
   li {
@@ -30,6 +25,24 @@ ul {
     color: white;
     text-decoration: none;
   }
+
+  .header {
+    font-size: 24px;
+    width: auto;
+    height: 400px;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex-direction: row;
+    align-self: center;
+    display: flex;
+    justify-content: flex-start;
+}
 
   .header, .footer {
     display: flex;
@@ -47,3 +60,4 @@ ul {
    gap: 16px;
    justify-content: center;
   }
+
