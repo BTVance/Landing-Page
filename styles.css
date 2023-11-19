@@ -39,6 +39,11 @@ a {
   padding: 16px;
 }
 
+.hero-secondary-text, .header-link-text {
+  font-size: 18px;
+  color: #E5E7Eb;
+}
+
   .header, .footer {
     display: flex;
     justify-content: space-between;
