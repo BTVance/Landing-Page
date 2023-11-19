@@ -1,5 +1,7 @@
 body {
-  width: auto
+  width: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -10,6 +12,8 @@ body {
   padding: 8px;
   flex-direction: row;
   height: auto;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -25,6 +29,10 @@ a {
   color: white;
 }
 
+img {
+  height: 100px;
+  width: 100px;
+}
 
 .left, .right {
   display: flex;
@@ -43,6 +51,24 @@ a {
   font-size: 18px;
   color: #E5E7Eb;
 }
+
+.info-header {
+font-size: 36px;
+font-weight: bolder;
+color: #1f2937;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.info {
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+
 
   .header, .footer {
     display: flex;
