@@ -1,40 +1,42 @@
 body {
-font-family: roboto;
-margin: 0;
-height: 100vh;
-display: flex;
-flex-direction: column;
-flex-basis: 0;
+  width: auto
 }
 
 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  flex-direction: row;
+  height: auto;
+}
+
 ul {
-    list-style-type: none;
-    display: flex;
-    justify-items: end;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  list-style: none;
+}
 
-  }
-  
-  li {
-    margin-bottom: 16px;
-  }
-  
-  a {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+  color: white;
+}
 
-  .header {
-    font-size: 24px;
-    height: 400px;
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .hero-main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-    align-self: center;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  padding: 16px;
 }
 
   .header, .footer {
