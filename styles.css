@@ -72,6 +72,19 @@ info-text {
   max-width: 200px;
 }
 
+.quote-section {
+  background-color: #E5E7Eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+}
+
+
+
   .header, .footer {
     display: flex;
     justify-content: space-between;
