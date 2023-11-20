@@ -98,7 +98,24 @@ align-items: center;
   padding: 100px;
 }
 
+.cta-border{
+  padding: 100px;
+}
 
+.cta {
+background-color: #3882f6;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 16px;
+flex-direction: column;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: end;
+}
 
   .header, .footer {
     display: flex;
