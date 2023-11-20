@@ -43,6 +43,7 @@ img {
   font-weight: bolder;
   color: #f9faf8;
   padding: 100px;
+  justify-content: space-between;
 }
 
 .hero-secondary-text, .header-link-text {
@@ -50,6 +51,18 @@ img {
   color: #E5E7Eb;
 }
 
+.img-container {
+  align-items: end;
+  text-align: right;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  margin: 16px;
+  padding: 8px 16px;
+  border-radius: 25px;
+}
 
 .info-header {
 font-size: 36px;
@@ -67,7 +80,7 @@ align-items: center;
   gap: 52px;
 }
 
-info-text {
+.info-text {
   max-width: 200px;
 }
 
