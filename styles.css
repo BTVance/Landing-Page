@@ -43,7 +43,9 @@ img {
   font-weight: bolder;
   color: #f9faf8;
   padding: 100px;
+  display: flex;
   justify-content: space-between;
+  flex-flow: column wrap;
 }
 
 .hero-secondary-text, .header-link-text {
@@ -52,7 +54,8 @@ img {
 }
 
 .img-container {
-  align-items: end;
+  display: flex;
+  vertical-align: top;
   text-align: right;
 }
 
