@@ -9,9 +9,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
   flex-direction: row;
-  height: auto;
   margin-bottom: 8px;
   flex-wrap: wrap;
 }
@@ -30,8 +28,8 @@ a {
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .left, .right {
@@ -44,13 +42,14 @@ img {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
-  padding: 16px;
+  padding: 100px;
 }
 
 .hero-secondary-text, .header-link-text {
   font-size: 18px;
   color: #E5E7Eb;
 }
+
 
 .info-header {
 font-size: 36px;
@@ -88,7 +87,7 @@ info-text {
   .header, .footer {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 25px 100px 100px 100px;
     background-color: #1f2937 ;
     color: white;
     font-family: Roboto;
