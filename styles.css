@@ -42,7 +42,7 @@ img {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
-  padding: 100px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   flex-flow: column wrap;
@@ -55,7 +55,8 @@ img {
 
 .img-container {
   display: flex;
-  vertical-align: top;
+  justify-content: center;
+  align-items: end;
   text-align: right;
 }
 
@@ -106,15 +107,16 @@ align-items: center;
 background-color: #3882f6;
 color: white;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
-padding: 16px;
+padding: 32px;
 flex-direction: column;
 }
 
 .cta-button {
   display: flex;
-  justify-content: end;
+justify-content: end;
+  padding: 32px;
 }
 
   .header, .footer {
